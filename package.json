@@ -1,0 +1,24 @@
+{
+  "name": "kahoot.rocks-self-host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charleywright/Kahoot.Rocks-self-host.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charleywright/Kahoot.Rocks-self-host/issues"
+  },
+  "homepage": "https://github.com/charleywright/Kahoot.Rocks-self-host#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1"
+  }
+}
