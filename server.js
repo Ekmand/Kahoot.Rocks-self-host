@@ -14,4 +14,4 @@ app.all("/proxy(/*)", (req, res) => {
   proxy.web(req, res, { target: "https://kahoot.it" });
 });
 
-app.listen(8080, () => console.log("Listening on 8080"));
+app.listen(80, () => console.log("Listening on 80"));
